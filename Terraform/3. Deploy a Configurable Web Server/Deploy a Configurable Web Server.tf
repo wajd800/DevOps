@@ -18,7 +18,7 @@ resource "aws_instance" "example" {
  Name = "terraform-example"
  }
 }
-#You need to do one more thing before this web server works add SG
+#You need to do one more thing before this web server works add SGG
 
 resource "aws_security_group" "instance" {
  name = "terraform-example-instance"
